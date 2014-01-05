@@ -1,0 +1,27 @@
+	const string bazaConn = "SERVER=mysql.lrk.si;" + "Port = 3306;" + "DATABASE=sj6701_b1;" + "UID=sj6701;" + "PASSWORD=password";
+
+	MySqlConnection bazaPovezava = new MySqlConnection(bazaConn);
+	try
+	{
+		bazaPovezava.Open();
+		string SQLcommand = "SELECT * FROM UPORABNIK WHERE username=\""+user+"\"";
+		MySqlCommand bazaUkaz = new MySqlCommand(SQLcommand, bazaPovezava);
+		MySqlDataReader rdr = bazaUkaz.ExecuteReader();
+
+		while (rdr.Read())
+		{
+			id = (int)rdr["id"];
+			ime = (string)rdr["ime"];
+			priimek = (string)rdr["priimek"];
+			email = (string)rdr["email"];
+			break;
+		}
+	}
+	catch (Exception)
+	{
+		Response.Write("<p>Prišlo je do napake pri branju baze.</p>");
+	}
+	finally
+	{
+		bazaPovezava.Close();
+	}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<translations>
+    <translation id="bothcheck">
+		<slovenian>Oboje</slovenian>
+        <english>Both</english>
+    </translation>
+	<translation id="reglink">
+		<slovenian>Registracija</slovenian>
+        <english>Registration</english>
+    </translation>
+    <translation id="upimel">
+		<slovenian>Up. ime: </slovenian>
+        <english>Username: </english>
+    </translation>
+    <translation id="geslol">
+		<slovenian>Geslo: </slovenian>
+        <english>Password: </english>
+    </translation>
+    <translation id="logingumb">
+		<slovenian>Prijavi se</slovenian>
+        <english>Log in</english>
+    </translation>
+    <translation id="searchfield">
+		<slovenian>Iskanje...</slovenian>
+        <english>Search...</english>
+    </translation>
+    <translation id="cdlab">
+		<slovenian>CD zgoščenke</slovenian>
+        <english>CD plates</english>
+    </translation>
+    <translation id="lplab">
+		<slovenian>LP vinyl</slovenian>
+        <english>LP vinyl</english>
+    </translation>
+    <translation id="slo1">
+		<slovenian>Slovenska</slovenian>
+        <english>Slovenian</english>
+    </translation>
+    <translation id="cro1">
+		<slovenian>Hrvaška</slovenian>
+        <english>Croatian</english>
+    </translation>
+    <translation id="ost1">
+		<slovenian>Ostalo</slovenian>
+        <english>Other</english>
+    </translation>
+    <translation id="newon">
+		<slovenian>Novo na sceni</slovenian>
+        <english>Crazy new shit</english>
+    </translation>
+    <translation id="slo2">
+		<slovenian>Slovenska</slovenian>
+        <english>Slovenian</english>
+    </translation>
+    <translation id="cro2">
+		<slovenian>Hrvaška</slovenian>
+        <english>Croatian</english>
+    </translation>
+    <translation id="ost2">
+		<slovenian>Ostalo</slovenian>
+        <english>Other</english>
+    </translation>
+    <translation id="contactp">
+		<slovenian>Kontakt</slovenian>
+        <english>Contact</english>
+    </translation>
+    <translation id="unip">
+		<slovenian>Univerza v Ljubljani - Fakulteta za ra&#269;unalni&#353;tvo in informatiko</slovenian>
+        <english>University of Ljubljana - Faculty of Computer and Information Science</english>
+    </translation>
+    <translation id="vpisnap">
+		<slovenian>Vpisna &#353;tevilka</slovenian>
+        <english>Assign number</english>
+    </translation>
+</translations>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema 	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace="http://veti-si.herokuapp.com/xml" 
+			xmlns="http://veti-si.herokuapp.com/xml"
+			elementFormDefault="qualified">
+			
+  <xs:element name="izdelki">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="izdelek" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="naslovAlbuma"/>
+              <xs:element type="xs:string" name="izvajalec"/>
+              <xs:element type="xs:short" name="letoIzida"/>
+              <xs:element type="xs:string" name="zalozba"/>
+              <xs:element name="cena">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:float">
+                      <xs:attribute type="xs:string" name="valuta" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="idn" use="optional"/>
+            <xs:attribute type="xs:string" name="tip" use="optional"/>
+            <xs:attribute type="xs:string" name="kategorija" use="optional"/>
+            <xs:attribute type="xs:string" name="slika" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

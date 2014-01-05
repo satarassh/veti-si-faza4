@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<izdelki>
+	<izdelek idn="1" tip="cd" kategorija="ostalo" slika="cds/gaga_artpop.jpg">
+		<naslovAlbuma>Artpop</naslovAlbuma>
+		<izvajalec>Lady Gaga</izvajalec>
+		<letoIzida>2013</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	<izdelek idn="2" tip="cd" kategorija="ostalo" slika="cds/guetta_beat.jpg">
+		<naslovAlbuma>Nothing But The Beat</naslovAlbuma>
+		<izvajalec>David Guetta</izvajalec>
+		<letoIzida>2012</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">11.99</cena>
+	</izdelek>
+	
+	<izdelek idn="3" tip="cd" kategorija="ostalo" slika="cds/boyle_home.jpg">
+		<naslovAlbuma>Home For Christmas</naslovAlbuma>
+		<izvajalec>Susan Boyle</izvajalec>
+		<letoIzida>2012</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">9.99</cena>
+	</izdelek>
+	
+	<izdelek idn="4" tip="cd" kategorija="ostalo" slika="cds/floyd_dark.jpg">
+		<naslovAlbuma>Dark Side of The Moon</naslovAlbuma>
+		<izvajalec>Pink Floyd</izvajalec>
+		<letoIzida>1998</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">6.99</cena>
+	</izdelek>
+	
+	<izdelek idn="5" tip="cd" kategorija="ostalo" slika="cds/mars_treasure.jpg">
+		<naslovAlbuma>Treasure</naslovAlbuma>
+		<izvajalec>Bruno Mars</izvajalec>
+		<letoIzida>2013</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">13.99</cena>
+	</izdelek>
+	
+	<izdelek idn="6" tip="cd" kategorija="ostalo" slika="cds/rudimental_home.jpg">
+		<naslovAlbuma>Home</naslovAlbuma>
+		<izvajalec>Rudimental</izvajalec>
+		<letoIzida>2013</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">18.99</cena>
+	</izdelek>
+	
+	<izdelek idn="7" tip="cd" kategorija="slovenske" slika="cds/modrijani_rozica.jpg">
+		<naslovAlbuma>Ro&#382;ica</naslovAlbuma>
+		<izvajalec>Modrijani</izvajalec>
+		<letoIzida>2012</letoIzida>
+		<zalozba>Menart</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	
+	<izdelek idn="8" tip="cd" kategorija="hrvaske" slika="cds/miso_hitovi.jpg">
+		<naslovAlbuma>Najve&#269;i hitovi</naslovAlbuma>
+		<izvajalec>Mi&#353;o Kova&#269;</izvajalec>
+		<letoIzida>2009</letoIzida>
+		<zalozba>Hrvatska Zajednica</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	
+	<izdelek idn="9" tip="cd" kategorija="hrvaske" slika="cds/zak_najbolja.jpg">
+		<naslovAlbuma>Bolja od najbolje</naslovAlbuma>
+		<izvajalec>Ivan Zak</izvajalec>
+		<letoIzida>2012</letoIzida>
+		<zalozba>Hrvatska Zajednica</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	
+	<izdelek idn="10" tip="lp" kategorija="ostalo" slika="lp/barry_colection.jpg">
+		<naslovAlbuma>The Collection</naslovAlbuma>
+		<izvajalec>Barry White</izvajalec>
+		<letoIzida>1979</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	
+	<izdelek idn="11" tip="lp" kategorija="ostalo" slika="lp/beatles_let.jpg">
+		<naslovAlbuma>Let It Be</naslovAlbuma>
+		<izvajalec>The Beatles</izvajalec>
+		<letoIzida>1971</letoIzida>
+		<zalozba>American Redording</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+	
+	<izdelek idn="12" tip="lp" kategorija="slovenske" slika="lp/avsenik_70.jpg">
+		<naslovAlbuma>70 let</naslovAlbuma>
+		<izvajalec>Slavko Avsenik</izvajalec>
+		<letoIzida>2002</letoIzida>
+		<zalozba>Menart</zalozba>
+		<cena valuta="evro">14.99</cena>
+	</izdelek>
+</izdelki>
