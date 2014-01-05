@@ -48,7 +48,6 @@ $(document).ready(function() {
 	    var map = new google.maps.Map(document.getElementById("locdiv"), myOptions);
 	}
 	
-    //
 
 	$("#showloc").click(function () {
 	    InitializeMap;
