@@ -47,7 +47,9 @@ $(document).ready(function() {
 	    };
 	    var map = new google.maps.Map(document.getElementById("locdiv"), myOptions);
 	}
-	window.onload = InitializeMap;
+	
+    //
+
 	$("#showloc").click(function () {
 	    InitializeMap;
 	});
